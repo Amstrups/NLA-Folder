@@ -32,13 +32,13 @@ ax.plot(x,y)
 
 #%%
 #2.3
-x = np.linspace(-150.0, 150.0, 100)
-y = x**8-8*x**7 + 28*x**6 - 56**x**5 + 70*x**4 - 56*x**3 + 28*x**2 - 8*x + 1
+x = np.linspace(-150.0, 150.0, 200)
+#y = x**8-8*x**7 + 28*x**6 - 56**x**5 + 70*x**4 - 56*x**3 + 28*x**2 - 8*x + 1
 z = (x-1)**8
 fig, ax = plt.subplots()
-ax.plot(x,y)
+#ax.plot(x,y)
 #ax.plot(x,y-z)
-#ax.plot(x,z)
+ax.plot(x,z)
 
 
 # %%
